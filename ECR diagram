@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T18:49:06.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="dvEQmFZUnkOK8FllGUoX" type="github"><diagram id="3bINPmw45zzbnSJADLgF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-19T19:16:22.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6u8iHsLjOCa_Xssh9-_H" version="20.5.3" type="github">
+  <diagram id="3bINPmw45zzbnSJADLgF" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PMLx4FNzYSX784JRT7X5-1" value="Pushing a Docker image to Amazon ECR" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="172" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-3" value="Source code + Dockerfile" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="395" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-4" value="Github Repository" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="461" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-6" value="Amazon ECR" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ecr;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="753" y="390" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-7" value="Amazon EC2 with Docker installed&amp;nbsp;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="390" width="90" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-8" value="" style="endArrow=classic;html=1;rounded=0;align=center;verticalAlign=middle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109" y="434" as="sourcePoint" />
+            <mxPoint x="408" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-10" value="Clone the code in to the Ec2 instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;strokeWidth=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="406" width="217" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-11" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="PMLx4FNzYSX784JRT7X5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="504" y="489" as="sourcePoint" />
+            <mxPoint x="750" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-12" value="Upload Docker image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="425" width="133" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="PMLx4FNzYSX784JRT7X5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="438" as="sourcePoint" />
+            <mxPoint x="707" y="401.28395061728395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMLx4FNzYSX784JRT7X5-16" value="&lt;h1&gt;&lt;ul style=&quot;font-size: 12px; font-weight: 400; text-align: center;&quot;&gt;&lt;li&gt;Amazon Ec2 uses&amp;nbsp; AWS S3 for storage so as to make the container images highly available.&lt;/li&gt;&lt;li&gt;It also transfers the container images over HTTPS and automatically encrypts the images at rest&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="22" y="598" width="581" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
